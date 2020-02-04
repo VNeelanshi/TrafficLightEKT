@@ -91,18 +91,18 @@
       }
 
       var currentQuestionId = parseInt(currentCard.getAttribute(QUESTION_ATTR), 10);
-
-      if (answerBtn.getAttribute(ANSWER_ATTR) === "multiple") {
-        var answerObject = {};
-        var answerGroup = currentCard.querySelectorAll('[' + MULTIPLE_ATTR + '="' + answerBtn.getAttribute(MULTIPLE_ID_ATTR) + '"]');
-        for (var a = 0; a < answerGroup.length; a++) {
-          answerObject[answerGroup[a].name] = answerGroup[a].checked;
-        }
-        var answerValue = answerObject;
-      }
-      else {
-      	var answerValue = parseInt(answerBtn.getAttribute(ANSWER_ATTR), 10) === 1 ? true : false; // Yes == 1 == true / No == 0 == false
-      }
+      var answerValue = answerBtn.getAttribute(ANSWER_ATTR)
+      // if (answerBtn.getAttribute(ANSWER_ATTR) === "multiple") {
+      //   var answerObject = {};
+      //   var answerGroup = currentCard.querySelectorAll('[' + MULTIPLE_ATTR + '="' + answerBtn.getAttribute(MULTIPLE_ID_ATTR) + '"]');
+      //   for (var a = 0; a < answerGroup.length; a++) {
+      //     answerObject[answerGroup[a].name] = answerGroup[a].checked;
+      //   }
+      //   var answerValue = answerObject;
+      // }
+      // else {
+      // 	var answerValue = parseInt(answerBtn.getAttribute(ANSWER_ATTR), 10) === 1 ? true : false; // Yes == 1 == true / No == 0 == false
+      // }
 
       var nextQuestionId = answerBtn.getAttribute(NEXT_ATTR);
       var nextCard =
