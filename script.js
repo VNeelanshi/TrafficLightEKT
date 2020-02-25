@@ -91,7 +91,8 @@
       }
 
       var currentQuestionId = parseInt(currentCard.getAttribute(QUESTION_ATTR), 10);
-      var answerValue = answerBtn.getAttribute(ANSWER_ATTR)
+      //var answerValue = answerBtn.getAttribute(ANSWER_ATTR)
+      var answerValue = answerBtn.innerHTML;
       // if (answerBtn.getAttribute(ANSWER_ATTR) === "multiple") {
       //   var answerObject = {};
       //   var answerGroup = currentCard.querySelectorAll('[' + MULTIPLE_ATTR + '="' + answerBtn.getAttribute(MULTIPLE_ID_ATTR) + '"]');
