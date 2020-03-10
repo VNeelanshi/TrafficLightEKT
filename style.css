@@ -109,6 +109,52 @@ a:hover{
   color: #4E2A84;
 }
 
+#passcode{
+  font-family: 'spartan', sans-serif;
+  height: 50px;
+  width: 400px;
+  font-size:14pt;
+}
+
+form{
+  padding: 20%;
+  padding-left: 40%;
+}
+
+.login_button {
+  display: inline-block;
+  margin: 0.25rem;
+  margin-left: 5rem;
+  padding: .25rem 1rem;
+  font-size: 1rem;
+  line-height: 3;
+  color: #ffead1;
+  width: 15rem;
+  border: 1px solid #ffead1;
+  border-radius: .5rem;
+  background-color: #4E2A84;
+  box-shadow: 0 2px 0 2px #ffead1;
+  font-family: 'spartan', sans-serif;
+
+}
+.login_button:hover, .login_button:focus {
+  background-color: #e6ccff;
+  color: #4E2A84;
+}
+.login_button:active {
+  box-shadow: 0 0 0 2px #ffead1;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 500px) {
   ul{
     flex-direction: column;
