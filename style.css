@@ -191,3 +191,10 @@ form{
             transform: translateY(50%);
   }
 }
+
+pre{
+  white-space: pre-wrap;
+  line-height: 1.5;
+  font: small-caption;
+  font-size: x-small;
+}

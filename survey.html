@@ -26,7 +26,7 @@
 
 <!-- Zeroth page checklist -->
 <div class="quiz__card" data-quiz-question-id="a" aria-active="true" tabindex="0">
-      <p class="quiz__question" style="font-size: 28px;">Welcome to TraffickLight</p>
+      <p class="quiz__question" style="font-size: 28px;" data-quiz-question-value>Welcome to TraffickLight</p>
       <p> Fill as much information as is available to the best of your knowledge about the person who you think might be a victim of Human Trafficking.
         The tool will accordingly give results about their chances of being a victim.</p>
 
@@ -37,7 +37,7 @@
 
 
 <div class="quiz__card" data-quiz-question-id="1" data-quiz-previous-question="0">
-      <p class="quiz__question">Is the person involved in sex trade crime (prostitution, massage parlor, brothel)?</p>
+      <p class="quiz__question" data-quiz-question-value>Is the person involved in sex trade crime (prostitution, massage parlor, brothel)?</p>
       <p class="quiz__answers">
        <button class="quiz__button" data-quiz-answer="0" data-quiz-next="11">Yes</button>
        <button class="quiz__button" data-quiz-answer="1" data-quiz-next="2">No</button>
@@ -46,13 +46,13 @@
 
 
 <div class="quiz__card" data-quiz-question-id="11" data-quiz-previous-question="0">
-      <p class="quiz__question">Select all that apply</p>
+      <p class="quiz__question" data-quiz-question-value>Select all that apply</p>
 
       <div class="quiz__answers--columns">
               <p class="quiz__answers--column">
-                <input type="checkbox" data-quiz-multiple="q11" id="11-1"> <label for="11-1">Is a minor</label><br>
-                <input type="checkbox" data-quiz-multiple="q11" id="11-2"> <label for="11-2">Pornography</label><br>
-                <input type="checkbox" data-quiz-multiple="q11" id="11-3"> <label for="11-3">Massage parlor</label>
+                <input type="checkbox" data-quiz-multiple="q11" id="11-1" name="Is a minor"> <label for="11-1">Is a minor</label><br>
+                <input type="checkbox" data-quiz-multiple="q11" id="11-2" name="Pornography"> <label for="11-2">Pornography</label><br>
+                <input type="checkbox" data-quiz-multiple="q11" id="11-3" name="Massage parlor"> <label for="11-3">Massage parlor</label>
               </p>
 
             </div>
@@ -67,7 +67,7 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="2" data-quiz-previous-question="0">
-      <p class="quiz__question">Is the person involved in ID Theft + Grand Theft Auto Charge Combination?</p>
+      <p class="quiz__question" data-quiz-question-value>Is the person involved in ID Theft + Grand Theft Auto Charge Combination?</p>
       <p class="quiz__answers">
        <button class="quiz__button" data-quiz-answer="0" data-quiz-next="21">Yes</button>
        <button class="quiz__button" data-quiz-answer="1" data-quiz-next="3">No</button>
@@ -75,13 +75,13 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="21" data-quiz-previous-question="0">
-      <p class="quiz__question">Select all that apply</p>
+      <p class="quiz__question" data-quiz-question-value>Select all that apply</p>
 
       <div class="quiz__answers--columns">
               <p class="quiz__answers--column">
-                <input type="checkbox" data-quiz-multiple="q21" id="21-1"> <label for="21-1">ID theft plaintiff is credit card company?</label><br>
-                <input type="checkbox" data-quiz-multiple="q21" id="21-2"> <label for="21-2">Grand theft auto resulted in vehicle disassembly (chop shop)?</label><br>
-                <input type="checkbox" data-quiz-multiple="q21" id="21-3"> <label for="21-3">Grand theft auto was rental car?</label>
+                <input type="checkbox" data-quiz-multiple="q21" id="21-1" name="ID theft plaintiff is credit card company?"> <label for="21-1">ID theft plaintiff is credit card company?</label><br>
+                <input type="checkbox" data-quiz-multiple="q21" id="21-2" name="Grand theft auto resulted in vehicle disassembly (chop shop)?"> <label for="21-2">Grand theft auto resulted in vehicle disassembly (chop shop)?</label><br>
+                <input type="checkbox" data-quiz-multiple="q21" id="21-3" name="Grand theft auto was rental car?"> <label for="21-3">Grand theft auto was rental car?</label>
               </p>
 
             </div>
@@ -96,7 +96,7 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="3" data-quiz-previous-question="0">
-      <p class="quiz__question">Is the person involved in shoplifting for basic life necessities (hygiene)?</p>
+      <p class="quiz__question" data-quiz-question-value>Is the person involved in shoplifting for basic life necessities (hygiene)?</p>
       <p class="quiz__answers">
        <button class="quiz__button" data-quiz-answer="0" data-quiz-next="31">Yes</button>
        <button class="quiz__button" data-quiz-answer="1" data-quiz-next="4">No</button>
@@ -104,13 +104,13 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="31" data-quiz-previous-question="0">
-      <p class="quiz__question">Select all that apply</p>
+      <p class="quiz__question" data-quiz-question-value>Select all that apply</p>
 
       <div class="quiz__answers--columns">
               <p class="quiz__answers--column">
-                <input type="checkbox" data-quiz-multiple="q31" id="31-1"> <label for="31-1">Theft of hygiene products?</label><br>
-                <input type="checkbox" data-quiz-multiple="q31" id="31-2"> <label for="31-2">Repeat offense?</label><br>
-                <input type="checkbox" data-quiz-multiple="q31" id="31-3"> <label for="31-3">Gums/cigars/alcohol?</label>
+                <input type="checkbox" data-quiz-multiple="q31" id="31-1" name="Theft of hygiene products?"> <label for="31-1">Theft of hygiene products?</label><br>
+                <input type="checkbox" data-quiz-multiple="q31" id="31-2" name="Repeat offense?"> <label for="31-2">Repeat offense?</label><br>
+                <input type="checkbox" data-quiz-multiple="q31" id="31-3" name="Gums/cigars/alcohol?"> <label for="31-3">Gums/cigars/alcohol?</label>
               </p>
 
             </div>
@@ -125,7 +125,7 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="4" data-quiz-previous-question="0">
-      <p class="quiz__question">Does the person have a handler or overseer present?</p>
+      <p class="quiz__question" data-quiz-question-value>Does the person have a handler or overseer present?</p>
       <p class="quiz__answers">
        <button class="quiz__button" data-quiz-answer="0" data-quiz-next="41">Yes</button>
        <button class="quiz__button" data-quiz-answer="1" data-quiz-next="5">No</button>
@@ -133,12 +133,12 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="41" data-quiz-previous-question="0">
-      <p class="quiz__question">Select all that apply.</p>
+      <p class="quiz__question" data-quiz-question-value>Select all that apply.</p>
       <p> Does the person .. </p>
       <div class="quiz__answers--columns">
               <p class="quiz__answers--column">
-                <input type="checkbox" data-quiz-multiple="q41" id="41-1"> <label for="41-1">Defer to third party before answering questions?</label><br>
-                <input type="checkbox" data-quiz-multiple="q41" id="41-2"> <label for="41-2">Have a third party that attempts to speak for for them, or refuses to allow private meetings?</label><br>
+                <input type="checkbox" data-quiz-multiple="q41" id="41-1" name="Defer to third party before answering questions?"> <label for="41-1">Defer to third party before answering questions?</label><br>
+                <input type="checkbox" data-quiz-multiple="q41" id="41-2" name="Have a third party that attempts to speak for for them, or refuses to allow private meetings?"> <label for="41-2">Have a third party that attempts to speak for for them, or refuses to allow private meetings?</label><br>
 
               </p>
 
@@ -154,7 +154,7 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="5" data-quiz-previous-question="0">
-      <p class="quiz__question">Is the person confused or not aware of location </p>
+      <p class="quiz__question" data-quiz-question-value>Is the person confused or not aware of location </p>
       <p class="quiz__answers">
        <button class="quiz__button" data-quiz-answer="0" data-quiz-next="51">Yes</button>
        <button class="quiz__button" data-quiz-answer="1" data-quiz-next="6">No</button>
@@ -162,19 +162,19 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="51" data-quiz-previous-question="0">
-      <p class="quiz__question">Select all that apply for the person</p>
+      <p class="quiz__question" data-quiz-question-value>Select all that apply for the person</p>
 
       <div class="quiz__answers--columns">
               <p class="quiz__answers--column">
-                <input type="checkbox" data-quiz-multiple="q51" id="51-1"> <label for="51-1">Does not know current metro area</label><br>
-                <input type="checkbox" data-quiz-multiple="q51" id="51-2"> <label for="51-2">Does not know home address or story is inconsistent</label><br>
-                <input type="checkbox" data-quiz-multiple="q51" id="51-3"> <label for="51-3">Is a minor, but unclear on who their guardian is?</label><br>
-                <input type="checkbox" data-quiz-multiple="q51" id="51-4"> <label for="51-4">Appears anxious, depressed, submissive, paranoid</label><br>
-                <input type="checkbox" data-quiz-multiple="q51" id="51-5"> <label for="51-5">Is prevented from communicating with friends, family or children?</label><br>
-                <input type="checkbox" data-quiz-multiple="q51" id="51-6"> <label for="51-6">Is prevented from socializing or attending religious services?</label><br>
-                <input type="checkbox" data-quiz-multiple="q51" id="51-7"> <label for="51-7">Discloses that self, friends or family are under threat of physical harm?</label><br>
-                <input type="checkbox" data-quiz-multiple="q51" id="51-8"> <label for="51-8">Is fearful of discussing relationship with other individuals?</label><br>
-                <input type="checkbox" data-quiz-multiple="q51" id="51-9"> <label for="51-9">Appears to have intimate relationship with much older individual?</label><br>
+                <input type="checkbox" data-quiz-multiple="q51" id="51-1" name="Does not know current metro area"> <label for="51-1">Does not know current metro area</label><br>
+                <input type="checkbox" data-quiz-multiple="q51" id="51-2" name="Does not know home address or story is inconsistent"> <label for="51-2">Does not know home address or story is inconsistent</label><br>
+                <input type="checkbox" data-quiz-multiple="q51" id="51-3" name="Is a minor, but unclear on who their guardian is?"> <label for="51-3">Is a minor, but unclear on who their guardian is?</label>
+                <input type="checkbox" data-quiz-multiple="q51" id="51-4" name="Appears anxious, depressed, submissive, paranoid"> <label for="51-4">Appears anxious, depressed, submissive, paranoid</label>
+                <input type="checkbox" data-quiz-multiple="q51" id="51-5" name="Is prevented from communicating with friends, family or children?"> <label for="51-5">Is prevented from communicating with friends, family or children?</label>
+                <input type="checkbox" data-quiz-multiple="q51" id="51-6" name="Is prevented from socializing or attending religious services?"> <label for="51-6">Is prevented from socializing or attending religious services?</label>
+                <input type="checkbox" data-quiz-multiple="q51" id="51-7" name="Discloses that self, friends or family are under threat of physical harm?"> <label for="51-7">Discloses that self, friends or family are under threat of physical harm?</label>
+                <input type="checkbox" data-quiz-multiple="q51" id="51-8" name="Is fearful of discussing relationship with other individuals?"> <label for="51-8">Is fearful of discussing relationship with other individuals?</label>
+                <input type="checkbox" data-quiz-multiple="q51" id="51-9" name=="Appears to have intimate relationship with much older individual?"> <label for="51-9">Appears to have intimate relationship with much older individual?</label>
               </p>
             </div>
 
@@ -189,7 +189,7 @@
 
 
 <div class="quiz__card" data-quiz-question-id="6" data-quiz-previous-question="0">
-      <p class="quiz__question">Does the person have repeated driving while license suspended charges?</p>
+      <p class="quiz__question" data-quiz-question-value>Does the person have repeated driving while license suspended charges?</p>
       <p class="quiz__answers">
        <button class="quiz__button" data-quiz-answer="0" data-quiz-next="61">Yes</button>
        <button class="quiz__button" data-quiz-answer="1" data-quiz-next="7">No</button>
@@ -197,12 +197,12 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="61" data-quiz-previous-question="0">
-      <p class="quiz__question">Select all that apply.</p>
+      <p class="quiz__question" data-quiz-question-value>Select all that apply.</p>
 
       <div class="quiz__answers--columns">
               <p class="quiz__answers--column">
-                <input type="checkbox" data-quiz-multiple="q61" id="61-1"> <label for="61-1">Committed repeat offense?</label><br>
-                <input type="checkbox" data-quiz-multiple="q61" id="61-2"> <label for="61-2">No drivers license ever?</label><br>
+                <input type="checkbox" data-quiz-multiple="q61" id="61-1" name="Committed repeat offense?"> <label for="61-1">Committed repeat offense?</label><br>
+                <input type="checkbox" data-quiz-multiple="q61" id="61-2" name="No drivers license ever?"> <label for="61-2">No drivers license ever?</label><br>
 
               </p>
 
@@ -218,7 +218,7 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="7" data-quiz-previous-question="0">
-      <p class="quiz__question">Does the person have stockkeeping tattoos, brands or injuries?</p>
+      <p class="quiz__question" data-quiz-question-value>Does the person have stockkeeping tattoos, brands or injuries?</p>
       <p class="quiz__answers">
        <button class="quiz__button" data-quiz-answer="0" data-quiz-next="71">Yes</button>
        <button class="quiz__button" data-quiz-answer="1" data-quiz-next="8">No</button>
@@ -226,7 +226,7 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="71" data-quiz-previous-question="0">
-      <p class="quiz__question">Does the person appear healthy?</p>
+      <p class="quiz__question" data-quiz-question-value>Does the person appear healthy?</p>
       <p class="quiz__answers">
        <button class="quiz__button" data-quiz-answer="0" data-quiz-next="72">Yes</button>
        <button class="quiz__button" data-quiz-answer="1" data-quiz-next="711">No</button>
@@ -234,7 +234,7 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="711" data-quiz-previous-question="0">
-      <p class="quiz__question">Does the person appear injured?</p>
+      <p class="quiz__question" data-quiz-question-value>Does the person appear injured?</p>
       <p class="quiz__answers">
        <button class="quiz__button" data-quiz-answer="0" data-quiz-next="7111">Yes</button>
        <button class="quiz__button" data-quiz-answer="1" data-quiz-next="712">No</button>
@@ -242,14 +242,14 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="7111" data-quiz-previous-question="0">
-      <p class="quiz__question">Select all that apply.</p>
+      <p class="quiz__question" data-quiz-question-value>Select all that apply.</p>
 
       <div class="quiz__answers--columns">
               <p class="quiz__answers--column">
-                <input type="checkbox" data-quiz-multiple="q7111" id="7111-1"> <label for="7111-1">Injuries are healed, but is unwilling to disclose cause of injuries?</label><br>
-                <input type="checkbox" data-quiz-multiple="q7111" id="7111-2"> <label for="7111-2">Claims injuries work-related, but unwilling to disclose details?</label><br>
-                <input type="checkbox" data-quiz-multiple="q7111" id="7111-3"> <label for="7111-3">Injuries appear intentionally inflicted?</label><br>
-                <input type="checkbox" data-quiz-multiple="q7111" id="7111-4"> <label for="7111-4">Injury appears to be from sexual abuse, restraints, torture or punishment?</label><br>
+                <input type="checkbox" data-quiz-multiple="q7111" id="7111-1" name="Injuries are healed, but is unwilling to disclose cause of injuries?"> <label for="7111-1">Injuries are healed, but is unwilling to disclose cause of injuries?</label><br>
+                <input type="checkbox" data-quiz-multiple="q7111" id="7111-2" name="Claims injuries work-related, but unwilling to disclose details?"> <label for="7111-2">Claims injuries work-related, but unwilling to disclose details?</label><br>
+                <input type="checkbox" data-quiz-multiple="q7111" id="7111-3" name="Injuries appear intentionally inflicted?"> <label for="7111-3">Injuries appear intentionally inflicted?</label><br>
+                <input type="checkbox" data-quiz-multiple="q7111" id="7111-4" name="Injury appears to be from sexual abuse, restraints, torture or punishment?"> <label for="7111-4">Injury appears to be from sexual abuse, restraints, torture or punishment?</label><br>
               </p>
             </div>
 
@@ -259,7 +259,7 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="712" data-quiz-previous-question="0">
-      <p class="quiz__question">Does the person appear injured?</p>
+      <p class="quiz__question" data-quiz-question-value>Does the person appear injured?</p>
       <p class="quiz__answers">
        <button class="quiz__button" data-quiz-answer="0" data-quiz-next="7121">Yes</button>
        <button class="quiz__button" data-quiz-answer="1" data-quiz-next="72">No</button>
@@ -267,12 +267,12 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="7121" data-quiz-previous-question="0">
-      <p class="quiz__question">Select all that apply.</p>
+      <p class="quiz__question" data-quiz-question-value>Select all that apply.</p>
 
       <div class="quiz__answers--columns">
               <p class="quiz__answers--column">
-                <input type="checkbox" data-quiz-multiple="q7121" id="7121-1"> <label for="7121-1">Appears deprived of food, water, sleep, medical care or toiletries?</label><br>
-                <input type="checkbox" data-quiz-multiple="q7121" id="7121-2"> <label for="7121-2">Illness is sexually transmitted disease?</label><br>
+                <input type="checkbox" data-quiz-multiple="q7121" id="7121-1" name="Appears deprived of food, water, sleep, medical care or toiletries?"> <label for="7121-1">Appears deprived of food, water, sleep, medical care or toiletries?</label><br>
+                <input type="checkbox" data-quiz-multiple="q7121" id="7121-2" name="Illness is sexually transmitted disease?"> <label for="7121-2">Illness is sexually transmitted disease?</label><br>
               </p>
             </div>
 
@@ -282,7 +282,7 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="72" data-quiz-previous-question="0">
-      <p class="quiz__question">Does the have tattoos or brands?</p>
+      <p class="quiz__question" data-quiz-question-value>Does the person have tattoos or brands?</p>
       <p class="quiz__answers">
        <button class="quiz__button" data-quiz-answer="0" data-quiz-next="721">Yes</button>
        <button class="quiz__button" data-quiz-answer="1" data-quiz-next="73">No</button>
@@ -290,12 +290,12 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="721" data-quiz-previous-question="0">
-      <p class="quiz__question">Select all that apply.</p>
+      <p class="quiz__question" data-quiz-question-value>Select all that apply.</p>
 
       <div class="quiz__answers--columns">
               <p class="quiz__answers--column">
-                <input type="checkbox" data-quiz-multiple="q7121" id="721-1"> <label for="721-1">Is unwilling to reveal source of tattoo/brand?</label><br>
-                <input type="checkbox" data-quiz-multiple="q7121" id="721-2"> <label for="721-2">Has tattoos or brands that identify organized crime or drug use?</label><br>
+                <input type="checkbox" data-quiz-multiple="q7121" id="721-1" name="Is unwilling to reveal source of tattoo/brand?"> <label for="721-1">Is unwilling to reveal source of tattoo/brand?</label><br>
+                <input type="checkbox" data-quiz-multiple="q7121" id="721-2" name="Has tattoos or brands that identify organized crime or drug use?"> <label for="721-2">Has tattoos or brands that identify organized crime or drug use?</label><br>
               </p>
             </div>
 
@@ -305,13 +305,13 @@
 </div>
 
 <div class="quiz__card" data-quiz-question-id="73" data-quiz-previous-question="0">
-      <p class="quiz__question">Select all that apply.</p>
+      <p class="quiz__question" data-quiz-question-value>Select all that apply.</p>
 
       <div class="quiz__answers--columns">
               <p class="quiz__answers--column">
-                <input type="checkbox" data-quiz-multiple="q73" id="73-1"> <label for="73-1">Has any personal possession?</label><br>
-                <input type="checkbox" data-quiz-multiple="q73" id="73-2"> <label for="73-2">Has clothing, jewelry or cell phone not matching income level?</label><br>
-                <input type="checkbox" data-quiz-multiple="q73" id="73-3"> <label for="73-3">Clothing, jewelry, makeup is in unexplainably good condition for the situation</label><br>
+                <input type="checkbox" data-quiz-multiple="q73" id="73-1" name="Has any personal possession?"> <label for="73-1">Has any personal possession?</label><br>
+                <input type="checkbox" data-quiz-multiple="q73" id="73-2" name="Has clothing, jewelry or cell phone not matching income level?"> <label for="73-2">Has clothing, jewelry or cell phone not matching income level?</label><br>
+                <input type="checkbox" data-quiz-multiple="q73" id="73-3" name="Clothing, jewelry, makeup is in unexplainably good condition for the situation"> <label for="73-3">Clothing, jewelry, makeup is in unexplainably good condition for the situation</label><br>
 
               </p>
             </div>
@@ -323,19 +323,19 @@
 
 
 <div class="quiz__card" data-quiz-question-id="8" data-quiz-previous-question="0">
-      <p class="quiz__question">Employment information. Select all that apply.</p>
+      <p class="quiz__question" data-quiz-question-value>Employment information. Select all that apply.</p>
 
       <div class="quiz__answers--columns">
               <p class="quiz__answers--column">
-                <input type="checkbox" data-quiz-multiple="q8" id="8-1"> <label for="8-1">Is fearful or unwilling to discuss employment</label><br>
-                <input type="checkbox" data-quiz-multiple="q8" id="8-2"> <label for="8-2">Has inconsistent story about employment</label><br>
-                <input type="checkbox" data-quiz-multiple="q8" id="8-3"> <label for="8-3">Is employed in field connected to sex trade (strip club, go-go bar, massage parlor)</label><br>
-                <input type="checkbox" data-quiz-multiple="q8" id="8-4"> <label for="8-4"> Was forced to perform sex acts at work</label><br>
-                <input type="checkbox" data-quiz-multiple="q8" id="8-5"> <label for="8-5"> Works excessive hours or has unusual work schedule</label><br>
-                <input type="checkbox" data-quiz-multiple="q8" id="8-6"> <label for="8-6"> Was recruited for one job but engaged in another</label><br>
-                <input type="checkbox" data-quiz-multiple="q8" id="8-7"> <label for="8-7"> Has wages garnished to pay off debt</label><br>
-                <input type="checkbox" data-quiz-multiple="q8" id="8-8"> <label for="8-8"> Works under threat of deportation or notification of law enforcement</label><br>
-                <input type="checkbox" data-quiz-multiple="q8" id="8-9"> <label for="8-9"> Is coveetly transported to or from work</label><br>
+                <input type="checkbox" data-quiz-multiple="q8" id="8-1" name="Is fearful or unwilling to discuss employment"> <label for="8-1">Is fearful or unwilling to discuss employment</label><br>
+                <input type="checkbox" data-quiz-multiple="q8" id="8-2" name="Has inconsistent story about employment"> <label for="8-2">Has inconsistent story about employment</label><br>
+                <input type="checkbox" data-quiz-multiple="q8" id="8-3" name="Is employed in field connected to sex trade (strip club, go-go bar, massage parlor)"> <label for="8-3">Is employed in field connected to sex trade (strip club, go-go bar, massage parlor)</label><br>
+                <input type="checkbox" data-quiz-multiple="q8" id="8-4" name="Was forced to perform sex acts at work"> <label for="8-4"> Was forced to perform sex acts at work</label><br>
+                <input type="checkbox" data-quiz-multiple="q8" id="8-5" name="Works excessive hours or has unusual work schedule"> <label for="8-5"> Works excessive hours or has unusual work schedule</label><br>
+                <input type="checkbox" data-quiz-multiple="q8" id="8-6" name="Was recruited for one job but engaged in another"> <label for="8-6"> Was recruited for one job but engaged in another</label><br>
+                <input type="checkbox" data-quiz-multiple="q8" id="8-7" name="Has wages garnished to pay off debt"> <label for="8-7"> Has wages garnished to pay off debt</label><br>
+                <input type="checkbox" data-quiz-multiple="q8" id="8-8" name="Works under threat of deportation or notification of law enforcement"> <label for="8-8"> Works under threat of deportation or notification of law enforcement</label><br>
+                <input type="checkbox" data-quiz-multiple="q8" id="8-9" name="Is coveetly transported to or from work"> <label for="8-9"> Is coveetly transported to or from work</label><br>
 
               </p>
             </div>
@@ -346,12 +346,10 @@
 </div>
 
     <div class="quiz__card" data-quiz-results data-quiz-previous-question="0">
-        <p>There is a medium to high chance that the person is victim of Human Trafficking.</p>
+   	  <p data-quiz-sum></p>
       <p>Thank you for using the Traffic Light Expert Knowledge Tool. Following are some insights on the current case.</p>
 
       <p class="quiz__results" data-quiz-results-display></p>
-      <p>Of the estimated 600,000 to 800,000 people trafficked across international borders annually, 80 percent of victims are female, and up to 50 percent are minors. </p>
-      <p>Between 2011 and 2015, there was an almost 50% increase in the number of people sentenced for crimes related to heroin trafficking in the U.S</p>
 
       <p>
         <button class="quiz__button" data-quiz-restart="true">Retake survey</button>
