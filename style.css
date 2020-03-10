@@ -147,10 +147,14 @@ form{
           transform: translateY(2px);
 }
 
+/* label{
+  float: left;
+} */
 
 
-
-
+.quiz__answers--columns{
+  text-align: left;
+}
 
 
 
